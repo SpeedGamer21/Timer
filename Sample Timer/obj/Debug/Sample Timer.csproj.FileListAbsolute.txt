@@ -1,0 +1,8 @@
+E:\Sample Timer\Sample Timer\bin\Debug\Sample Timer.exe.config
+E:\Sample Timer\Sample Timer\bin\Debug\Sample Timer.exe
+E:\Sample Timer\Sample Timer\bin\Debug\Sample Timer.pdb
+E:\Sample Timer\Sample Timer\obj\Debug\Sample_Timer.Form1.resources
+E:\Sample Timer\Sample Timer\obj\Debug\Sample_Timer.Properties.Resources.resources
+E:\Sample Timer\Sample Timer\obj\Debug\Sample Timer.csproj.GenerateResource.Cache
+E:\Sample Timer\Sample Timer\obj\Debug\Sample Timer.exe
+E:\Sample Timer\Sample Timer\obj\Debug\Sample Timer.pdb
