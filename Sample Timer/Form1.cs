@@ -15,13 +15,15 @@ namespace Sample_Timer
         System.Windows.Forms.Timer timer;
         TimeSpan countdownClock = TimeSpan.Zero;
 
-        
+
         public Form1()
         {
             InitializeComponent();
+
+            serialPort1.Open();
         }
 
-  
+
         private void DisplayTime()
         {
             sec.Text = countdownClock.ToString(@"hh\:mm\:ss");
@@ -35,7 +37,7 @@ namespace Sample_Timer
             {
                 // Countdown clock has run out, so set it to zero 
                 // (in case it's negative), and stop our timer
-                
+
                 countdownClock = TimeSpan.Zero;
                 timer.Stop();
                 MessageBox.Show("YOUR TIME IS OVER!");
@@ -46,15 +48,16 @@ namespace Sample_Timer
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+
             timer = new System.Windows.Forms.Timer();
             timer.Interval = (int)TimeSpan.FromSeconds(1).TotalMilliseconds;
             timer.Tick += OnTimeEvent;
             DisplayTime();
+
         }
 
         private void AddTimeToClock(TimeSpan timeToAdd)
         {
-            // Add time to our clock
             countdownClock += timeToAdd;
 
             // Display the new time
@@ -62,12 +65,23 @@ namespace Sample_Timer
 
             // Start the timer if it's stopped
             if (!timer.Enabled) timer.Start();
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-             
-            AddTimeToClock(TimeSpan.FromMinutes(Convert.ToInt32(textBox1.Text)));
+            TimeSpan.FromMinutes(5);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
+        {
+            button1.PerformClick();
         }
     }
 }

@@ -6,3 +6,12 @@ E:\Sample Timer\Sample Timer\obj\Debug\Sample_Timer.Properties.Resources.resourc
 E:\Sample Timer\Sample Timer\obj\Debug\Sample Timer.csproj.GenerateResource.Cache
 E:\Sample Timer\Sample Timer\obj\Debug\Sample Timer.exe
 E:\Sample Timer\Sample Timer\obj\Debug\Sample Timer.pdb
+E:\timer\Sample Timer\bin\Debug\Sample Timer.exe.config
+E:\timer\Sample Timer\obj\Debug\Sample Timer.exe
+E:\timer\Sample Timer\obj\Debug\Sample Timer.pdb
+E:\timer\Sample Timer\bin\Debug\Sample Timer.exe
+E:\timer\Sample Timer\bin\Debug\Sample Timer.pdb
+E:\timer\Sample Timer\obj\Debug\Sample_Timer.Form1.resources
+E:\timer\Sample Timer\obj\Debug\Sample_Timer.Properties.Resources.resources
+E:\timer\Sample Timer\obj\Debug\Sample Timer.csproj.GenerateResource.Cache
+E:\timer\Sample Timer\obj\Debug\Sample Timer.csprojResolveAssemblyReference.cache
